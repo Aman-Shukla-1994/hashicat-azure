@@ -1,5 +1,5 @@
 module "network" {
   source  = "Azure/network/azurerm"
   version = "3.0.1"
-  #resource_group_name = "vnet"
+  resource_group_name = "network"
 }
